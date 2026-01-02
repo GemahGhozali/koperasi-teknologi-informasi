@@ -1,0 +1,10 @@
+{
+   "name": "gemahghozali/koperasi-teknologi-informasi",
+   "description": "Project Mata Kuliah Pemrograman Web",
+   "type": "project",
+   "autoload": {
+      "psr-4": {
+         "App\\": "app/"
+      }
+   }
+}
