@@ -1,0 +1,15 @@
+.drop-shadow-sm {
+   box-shadow: 2px 2px 0px 0px black;
+}
+
+.drop-shadow-md {
+   box-shadow: 4px 4px 0px 0px black;
+}
+
+.drop-shadow-lg {
+   box-shadow: 6px 6px 0px 0px black;
+}
+
+.group:hover .group-hover\:d-flex {
+   display: flex !important;
+}
