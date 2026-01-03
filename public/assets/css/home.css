@@ -1,0 +1,19 @@
+.nav-link.active {
+   font-weight: bold;
+}
+
+@media screen and (max-width: 576px) {
+   .navbar .container-xxl {
+      box-shadow: unset;
+      border-radius: 0 !important;
+      border: none !important;
+      border-bottom: 2px solid black !important;
+   }
+}
+
+@media screen and (max-width: 992px) {
+   #ctaButtons a {
+      border-radius: 0.5rem !important;
+      width: 100%;
+   }
+}
