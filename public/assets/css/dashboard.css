@@ -1,0 +1,21 @@
+#dashboardSidebar {
+   position: fixed;
+   top: 0;
+   left: -100%;
+   z-index: 9999;
+}
+
+#dashboardSidebar.active {
+   left: 0;
+}
+
+.dashboard-menu.active {
+   background-color: #e6e6e6;
+   font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+   #dashboardSidebar {
+      position: static;
+   }
+}
