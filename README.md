@@ -1,21 +1,30 @@
 # Koperasi Teknologi Informasi
 
-## Requirements
+Project dari mata kuliah Pemrograman Website. Dibangun secara native dengan menggunakan HTML, CSS, JavaScript dan PHP. Website ini dibuat dengan pendekatan MVC Pattern (Model-View-Controller)
 
-Pastikan sistem Anda telah terinstall:
+### Requirements
 
--  PHP dan PHP Development Server
+Pastikan sistem operasi telah terinstall:
+
+-  Git
 -  Composer
+-  PHP dan PHP Development Server
 
-## Cara Menjalankan Aplikasi
+### Cara Setup Aplikasi
 
 Ikuti langkah-langkah berikut untuk menjalankan aplikasi:
 
-### 1. Buka Folder Project
+#### 1. Clone Project
 
-Buka folder project `koperasi-teknologi-informasi`
+```bash
+git clone https://github.com/GemahGhozali/koperasi-teknologi-informasi.git
+```
 
-### 2. Masuk ke Directory Public
+#### 2. Buka Folder Project
+
+Buka folder project `koperasi-teknologi-informasi` di code editor
+
+#### 3. Masuk ke Directory Public
 
 Buka terminal pada project, lalu masuk ke dalam directory public dengan perintah:
 
@@ -23,7 +32,7 @@ Buka terminal pada project, lalu masuk ke dalam directory public dengan perintah
 cd public
 ```
 
-### 3. Jalankan PHP Development Server
+#### 4. Jalankan PHP Development Server
 
 Jalankan perintah berikut untuk menjalankan PHP Development Server:
 
@@ -31,10 +40,15 @@ Jalankan perintah berikut untuk menjalankan PHP Development Server:
 php -S localhost:3000
 ```
 
-### 4. Akses Aplikasi
+#### 5. Akses Website
 
-Buka web browser dan akses aplikasi melalui:
+Buka web browser dan akses website melalui:
 
 ```
 http://localhost:3000
 ```
+
+#### 6. Setup Database
+
+-  Buat database baru di database server local (yang mendukung MySQL)
+-  Import file `koperasi.sql` ke database baru yang telah dibuat
