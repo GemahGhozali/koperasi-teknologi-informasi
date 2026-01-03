@@ -1,0 +1,17 @@
+body {
+   font-family: "Space Grotesk";
+}
+
+table th,
+table td {
+   white-space: nowrap !important;
+   padding: 0.75rem !important;
+}
+
+a {
+   text-decoration: none;
+}
+
+textarea {
+   resize: none;
+}
